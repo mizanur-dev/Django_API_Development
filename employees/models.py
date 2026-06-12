@@ -7,5 +7,5 @@ class Employee(models.Model):
     emp_name=models.CharField(max_length=50)
     designation=models.CharField(max_length=50)
 
-    def __self__(self):
+    def __str__(self):
         return self.emp_name
